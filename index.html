@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="modal">
+        <div class="modal-form">
+            <div class="wrapper modal-form__wrapper">
+                <h2 class="h2">Добавление новости</h2>
+                <button class="close-button">
+                    <img src="img/close.svg" alt="" class="close-button__img">
+                </button>
+            </div>
+            <form action="" method="get" name="news">
+                <input type="text" class="form-elem" name="title" placeholder="Название">
+                <p id="titleErr" class="err"></p>
+                <textarea class="form-elem textarea" name="desc" placeholder="Текст"></textarea>
+                <p id="descErr" class="err"></p>
+                <button type="submit" class="send" name="news">Добавить новость</button>
+            </form> 
+        </div>
+    </div>
+
+    <header class="header">
+        <div class="container">
+            <figure class="header-logo">
+                <img src="img/logo.svg" alt="" class="header-logo__img">
+            </figure>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <div class="wrapper">
+                <h2 class="h2">Новости</h2>
+                <button class="add-button">Добавить новость</button>
+            </div>
+            <div class="wrapper news-wrapper ">
+                <!-- <div class="news-item" >
+                    <h3 class="h3">Название новости</h3>
+                    <p class="news-item__p">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Ad soluta odio vel accusantium eveniet rem tempora? Expedita,
+                        rem harum, esse praesentium possimus ex blanditiis aut similique
+                        eligendi animi, asperiores repellat!
+                    </p>
+                </div>
+                <div class="news-item">
+                    <h3 class="h3">Название новости</h3>
+                    <p class="news-item__p">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Ad soluta odio vel accusantium eveniet rem tempora? Expedita,
+                        rem harum, esse praesentium possimus ex blanditiis aut similique
+                        eligendi animi, asperiores repellat!
+                    </p>
+                </div>
+                <div class="news-item">
+                    <h3 class="h3">Название новости</h3>
+                    <p class="news-item__p">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Ad soluta odio vel accusantium eveniet rem tempora? Expedita,
+                        rem harum, esse praesentium possimus ex blanditiis aut similique
+                        eligendi animi, asperiores repellat!
+                    </p>
+                </div> -->
+            </div>
+        </div>
+    </main>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
